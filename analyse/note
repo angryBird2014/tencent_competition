@@ -1,0 +1,25 @@
+------ adID_groupby_count --------
+1.8696000574197869 2.2133153475682694
+1.6476544677818488 1.7962995087764078
+------ advertiserID_appID_count --------
+1.6091836263151738 1.5996562214525782
+1.2194224211121436 1.439868886799867
+------ adID_creativeID_count --------
+1.8696000574197869 2.2133153475682694
+1.6476544677818488 1.7962995087764078
+考虑删掉还是组合,如果组合,应该如何组合?
+
+user_app_rate : 0.000104493
+app_user_rate : 0.0
+
+
+
+columns_name = ['age_hot','advertiserID_adID_count','advertiserID_creativeID_count','camgaignID_adID_count',
+                    'camgaignID_creativeID_count','adID_creativeID_count','user_app_rate','app_user_rate']
+
+
+
+线下: 0.0903027972705,线上:0.10947
+线下: 0.0900045849347,线上:0.109216
+
+
