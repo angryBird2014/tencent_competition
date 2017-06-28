@@ -207,6 +207,7 @@ def getUserAppActionCatagory():
 
 
 if __name__ == '__main__':
+    #À´ÍæÒ»ÏÂ
     filename = 'user_app_actions.csv'
     #user_app_data = getdata(dirname + filename)
     getUserAppActionCatagory()
